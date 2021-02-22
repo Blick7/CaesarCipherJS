@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/95/6d/c3/956dc357f5213df2a9797b250061c4a2.jpg);
+}
+.enter-string {
+    margin: 20px;
+}
+
+.output-string {
+    margin: 20px;
+}
+
+.buttons {
+    margin-left: 30px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+select {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+::placeholder {
+    font-size: larger;
+    text-align: center;
+    padding-top: 8%;
+    
+}
+
+.crypt-string {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: start;
+}
+
+textarea {
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    border: 3px solid;
+    padding: 10px;
+}

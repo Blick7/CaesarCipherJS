@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>CAESAR CHIPFER</h1>
+    <p>
+        In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+
+The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system. As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communications security. 
+    </p> <br>
+    <form class="form" >
+        <textarea class="enter-string" placeholder="Enter your string" name="enter-string" id="enter-string" cols="40" rows="5" ></textarea>
+        <div class="buttons">
+            <button type="button" onclick="crypt()" id="crypt-button">Crypt</button>
+            <button type="button" id="decrypt-button" onclick="decrypt()">Decrypt</button>
+            <select id="select-option" name="select" >
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                                
+            </select>
+        </div>
+        <textarea class="crypt-string" name="crypt-string" id="crypt-string" placeholder="Enter crypt string"  ></textarea> <br>
+        <textarea class="output-string" placeholder="Your crypted string" name="output-string" id="output-string" cols="40" rows="5"></textarea> <br>
+                
+    </form>
+</body>
+</html>
+
