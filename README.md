@@ -1,3 +1,3 @@
-# CaesarChipherJS
+# CaesarCipherJS
 ---
-**Simple Caesar Chipher with encryption/decryption algorithm**
+**Simple Caesar Cipher with encryption/decryption algorithm**
